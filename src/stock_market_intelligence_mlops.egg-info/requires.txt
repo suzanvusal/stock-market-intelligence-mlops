@@ -1,0 +1,4 @@
+pandas<3.0,>=2.2
+numpy<3.0,>=1.26
+yfinance>=0.2.65
+scikit-learn<2.0,>=1.5

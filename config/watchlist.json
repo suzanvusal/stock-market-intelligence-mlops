@@ -1,0 +1,14 @@
+{
+  "description": "Yahoo Finance symbols for US and Canadian equities/ETFs",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "SPY",
+    "QQQ",
+    "SHOP.TO",
+    "VFV.TO",
+    "XEQT.TO",
+    "RY.TO"
+  ],
+  "period": "1y"
+}
