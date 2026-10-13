@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-10-12",
+  "run_date": "2026-10-13",
   "symbols_succeeded": [
     "AAPL",
     "MSFT",
@@ -12,13 +12,13 @@
   ],
   "symbols_failed": {},
   "rows": {
-    "AAPL": 251,
-    "MSFT": 251,
-    "SPY": 251,
-    "QQQ": 251,
-    "SHOP.TO": 252,
-    "VFV.TO": 252,
-    "XEQT.TO": 252,
-    "RY.TO": 252
+    "AAPL": 252,
+    "MSFT": 252,
+    "SPY": 252,
+    "QQQ": 252,
+    "SHOP.TO": 251,
+    "VFV.TO": 251,
+    "XEQT.TO": 251,
+    "RY.TO": 251
   }
 }
