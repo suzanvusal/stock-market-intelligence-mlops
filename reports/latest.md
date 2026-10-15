@@ -1,6 +1,6 @@
-# Daily Market Intelligence — 2026-10-14
+# Daily Market Intelligence — 2026-10-15
 
-- Generated: 2026-10-14 12:47 EDT
+- Generated: 2026-10-15 12:33 EDT
 - Purpose: educational market observation, not investment advice.
 - Prices are daily adjusted OHLCV from the configured public data source.
 
@@ -8,25 +8,25 @@
 
 | Symbol | Last date | Close | Daily return | RSI (14) | SMA 20 | SMA 50 |
 |---|---:|---:|---:|---:|---:|---:|
-| AAPL | 2026-10-14 | 344.26 | 0.88% | 59.02 | 336.87 | 324.47 |
-| MSFT | 2026-10-14 | 537.21 | -1.15% | 74.34 | 516.55 | 503.78 |
-| QQQ | 2026-10-14 | 731.34 | -1.64% | 43.05 | 742.59 | 726.23 |
-| RY.TO | 2026-10-14 | 275.02 | -0.80% | 40.39 | 280.50 | 286.02 |
-| SHOP.TO | 2026-10-14 | 245.40 | -2.25% | 82.46 | 213.76 | 205.93 |
-| SPY | 2026-10-14 | 770.18 | -1.01% | 53.16 | 770.58 | 767.40 |
-| VFV.TO | 2026-10-14 | 195.62 | -0.62% | 61.75 | 193.86 | 191.07 |
-| XEQT.TO | 2026-10-14 | 45.71 | -0.93% | 50.52 | 45.77 | 45.68 |
+| AAPL | 2026-10-15 | 343.91 | 0.28% | 53.49 | 337.15 | 325.11 |
+| MSFT | 2026-10-15 | 539.44 | 1.08% | 66.23 | 518.46 | 504.76 |
+| QQQ | 2026-10-15 | 722.91 | -0.83% | 35.65 | 742.81 | 726.31 |
+| RY.TO | 2026-10-15 | 278.09 | 0.75% | 43.96 | 280.30 | 285.73 |
+| SHOP.TO | 2026-10-15 | 244.72 | -0.31% | 80.30 | 216.91 | 207.36 |
+| SPY | 2026-10-15 | 769.40 | -0.03% | 47.79 | 770.99 | 767.42 |
+| VFV.TO | 2026-10-15 | 194.39 | -0.25% | 54.83 | 194.18 | 191.09 |
+| XEQT.TO | 2026-10-15 | 45.67 | 0.11% | 49.37 | 45.80 | 45.67 |
 
 ## Baseline model experiment
 
-- **AAPL:** accuracy 0.415; balanced accuracy 0.483; test samples 41; test positive-target rate 0.585.
+- **AAPL:** accuracy 0.463; balanced accuracy 0.516; test samples 41; test positive-target rate 0.585.
 - **MSFT:** accuracy 0.415; balanced accuracy 0.500; test samples 41; test positive-target rate 0.585.
 - **QQQ:** accuracy 0.463; balanced accuracy 0.500; test samples 41; test positive-target rate 0.537.
-- **RY.TO:** accuracy 0.366; balanced accuracy 0.500; test samples 41; test positive-target rate 0.366.
+- **RY.TO:** accuracy 0.390; balanced accuracy 0.500; test samples 41; test positive-target rate 0.390.
 - **SHOP.TO:** accuracy 0.439; balanced accuracy 0.521; test samples 41; test positive-target rate 0.585.
 - **SPY:** accuracy 0.634; balanced accuracy 0.559; test samples 41; test positive-target rate 0.415.
-- **VFV.TO:** accuracy 0.488; balanced accuracy 0.543; test samples 41; test positive-target rate 0.561.
-- **XEQT.TO:** accuracy 0.561; balanced accuracy 0.512; test samples 41; test positive-target rate 0.439.
+- **VFV.TO:** accuracy 0.463; balanced accuracy 0.522; test samples 41; test positive-target rate 0.561.
+- **XEQT.TO:** accuracy 0.512; balanced accuracy 0.481; test samples 41; test positive-target rate 0.463.
 
 Model metrics are historical holdout results, not a forecast guarantee or a buy/sell recommendation.
 
