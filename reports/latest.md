@@ -1,6 +1,6 @@
-# Daily Market Intelligence — 2026-10-16
+# Daily Market Intelligence — 2026-10-18
 
-- Generated: 2026-10-16 12:17 EDT
+- Generated: 2026-10-18 08:41 EDT
 - Purpose: educational market observation, not investment advice.
 - Prices are daily adjusted OHLCV from the configured public data source.
 
@@ -8,14 +8,14 @@
 
 | Symbol | Last date | Close | Daily return | RSI (14) | RSI interpretation | SMA 20 | SMA 50 | Trend |
 |---|---:|---:|---:|---:|---|---:|---:|---|
-| AAPL | 2026-10-16 | 344.75 | 0.80% | 57.78 | Middle range (30-70) | 337.49 | 325.72 | Above both SMAs |
-| MSFT | 2026-10-16 | 528.88 | -1.96% | 63.05 | Middle range (30-70) | 520.21 | 505.36 | Above both SMAs |
-| QQQ | 2026-10-16 | 716.99 | -1.51% | 36.65 | Middle range (30-70) | 742.88 | 726.47 | Below both SMAs |
-| RY.TO | 2026-10-16 | 280.09 | 0.39% | 41.27 | Middle range (30-70) | 280.10 | 285.43 | Below both SMAs |
-| SHOP.TO | 2026-10-16 | 248.65 | -1.54% | 83.35 | High RSI (>70) | 220.73 | 208.45 | Above both SMAs |
-| SPY | 2026-10-16 | 767.50 | -0.56% | 52.11 | Middle range (30-70) | 771.40 | 767.49 | Mixed / between SMAs |
-| VFV.TO | 2026-10-16 | 193.33 | -0.76% | 46.94 | Middle range (30-70) | 194.39 | 191.13 | Mixed / between SMAs |
-| XEQT.TO | 2026-10-16 | 45.67 | -0.39% | 45.40 | Middle range (30-70) | 45.83 | 45.67 | Mixed / between SMAs |
+| AAPL | 2026-10-16 | 343.46 | 0.43% | 56.40 | Middle range (30-70) | 337.42 | 325.69 | Above both SMAs |
+| MSFT | 2026-10-16 | 529.05 | -1.93% | 63.19 | Middle range (30-70) | 520.22 | 505.37 | Above both SMAs |
+| QQQ | 2026-10-16 | 709.80 | -2.50% | 33.37 | Middle range (30-70) | 742.52 | 726.33 | Below both SMAs |
+| RY.TO | 2026-10-16 | 280.01 | 0.36% | 41.12 | Middle range (30-70) | 280.10 | 285.43 | Below both SMAs |
+| SHOP.TO | 2026-10-16 | 239.71 | -5.08% | 74.05 | High RSI (>70) | 220.29 | 208.27 | Above both SMAs |
+| SPY | 2026-10-16 | 763.25 | -1.11% | 47.59 | Middle range (30-70) | 771.18 | 767.40 | Below both SMAs |
+| VFV.TO | 2026-10-16 | 192.10 | -1.39% | 42.95 | Middle range (30-70) | 194.33 | 191.10 | Mixed / between SMAs |
+| XEQT.TO | 2026-10-16 | 45.46 | -0.85% | 42.65 | Middle range (30-70) | 45.82 | 45.66 | Below both SMAs |
 
 ### How to read the indicators
 
