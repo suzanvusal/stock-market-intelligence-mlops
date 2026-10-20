@@ -1,6 +1,6 @@
-# Daily Market Intelligence — 2026-10-19
+# Daily Market Intelligence — 2026-10-20
 
-- Generated: 2026-10-19 14:30 EDT
+- Generated: 2026-10-20 09:35 EDT
 - Purpose: educational market observation, not investment advice.
 - Prices are daily adjusted OHLCV from the configured public data source.
 
@@ -8,14 +8,14 @@
 
 | Symbol | Last date | Close | Daily return | RSI (14) | RSI interpretation | SMA 20 | SMA 50 | Trend |
 |---|---:|---:|---:|---:|---|---:|---:|---|
-| AAPL | 2026-10-19 | 343.57 | 0.03% | 73.12 | High RSI (>70) | 337.65 | 326.30 | Above both SMAs |
-| MSFT | 2026-10-19 | 533.90 | 0.92% | 65.64 | Middle range (30-70) | 521.84 | 506.06 | Above both SMAs |
-| QQQ | 2026-10-19 | 718.46 | 1.22% | 38.89 | Middle range (30-70) | 741.37 | 726.25 | Below both SMAs |
-| RY.TO | 2026-10-19 | 276.62 | -1.21% | 37.75 | Middle range (30-70) | 279.71 | 285.03 | Below both SMAs |
-| SHOP.TO | 2026-10-19 | 241.26 | 0.64% | 73.57 | High RSI (>70) | 223.38 | 208.97 | Above both SMAs |
-| SPY | 2026-10-19 | 767.19 | 0.52% | 52.90 | Middle range (30-70) | 770.87 | 767.32 | Below both SMAs |
-| VFV.TO | 2026-10-19 | 192.50 | 0.21% | 48.04 | Middle range (30-70) | 194.47 | 191.13 | Mixed / between SMAs |
-| XEQT.TO | 2026-10-19 | 45.34 | -0.26% | 44.38 | Middle range (30-70) | 45.82 | 45.66 | Below both SMAs |
+| AAPL | 2026-10-20 | 342.85 | -0.03% | 67.84 | Middle range (30-70) | 337.78 | 326.98 | Above both SMAs |
+| MSFT | 2026-10-20 | 532.80 | -0.13% | 63.07 | Middle range (30-70) | 523.56 | 506.61 | Above both SMAs |
+| QQQ | 2026-10-20 | 713.29 | -0.71% | 35.41 | Middle range (30-70) | 739.66 | 726.11 | Below both SMAs |
+| RY.TO | 2026-10-20 | 277.27 | -0.09% | 40.62 | Middle range (30-70) | 279.13 | 284.70 | Below both SMAs |
+| SHOP.TO | 2026-10-20 | 243.60 | 0.87% | 72.34 | High RSI (>70) | 225.91 | 209.62 | Above both SMAs |
+| SPY | 2026-10-20 | 765.59 | -0.12% | 52.96 | Middle range (30-70) | 770.44 | 767.19 | Below both SMAs |
+| VFV.TO | 2026-10-20 | 191.30 | -0.62% | 44.85 | Middle range (30-70) | 194.38 | 191.13 | Mixed / between SMAs |
+| XEQT.TO | 2026-10-20 | 45.16 | -0.42% | 43.02 | Middle range (30-70) | 45.78 | 45.64 | Below both SMAs |
 
 ### How to read the indicators
 
@@ -31,12 +31,12 @@ These labels describe historical data and are not standalone buy/sell signals.
 
 ## Baseline model experiment
 
-- **AAPL:** accuracy 0.439; balanced accuracy 0.504; test samples 41; test positive-target rate 0.585.
-- **MSFT:** accuracy 0.415; balanced accuracy 0.500; test samples 41; test positive-target rate 0.585.
-- **QQQ:** accuracy 0.439; balanced accuracy 0.500; test samples 41; test positive-target rate 0.561.
-- **RY.TO:** accuracy 0.463; balanced accuracy 0.404; test samples 41; test positive-target rate 0.415.
+- **AAPL:** accuracy 0.439; balanced accuracy 0.500; test samples 41; test positive-target rate 0.561.
+- **MSFT:** accuracy 0.439; balanced accuracy 0.500; test samples 41; test positive-target rate 0.561.
+- **QQQ:** accuracy 0.463; balanced accuracy 0.500; test samples 41; test positive-target rate 0.537.
+- **RY.TO:** accuracy 0.585; balanced accuracy 0.500; test samples 41; test positive-target rate 0.415.
 - **SHOP.TO:** accuracy 0.390; balanced accuracy 0.519; test samples 41; test positive-target rate 0.634.
-- **SPY:** accuracy 0.610; balanced accuracy 0.556; test samples 41; test positive-target rate 0.439.
+- **SPY:** accuracy 0.634; balanced accuracy 0.559; test samples 41; test positive-target rate 0.415.
 - **VFV.TO:** accuracy 0.439; balanced accuracy 0.521; test samples 41; test positive-target rate 0.585.
 - **XEQT.TO:** accuracy 0.537; balanced accuracy 0.500; test samples 41; test positive-target rate 0.463.
 
