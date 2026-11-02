@@ -1,6 +1,6 @@
-# Daily Market Intelligence — 2026-10-30
+# Daily Market Intelligence — 2026-11-02
 
-- Generated: 2026-10-30 13:50 EDT
+- Generated: 2026-11-02 17:13 EST
 - Purpose: educational market observation, not investment advice.
 - Prices are daily adjusted OHLCV from the configured public data source.
 
@@ -8,14 +8,14 @@
 
 | Symbol | Last date | Close | Daily return | RSI (14) | RSI interpretation | SMA 20 | SMA 50 | Trend |
 |---|---:|---:|---:|---:|---|---:|---:|---|
-| AAPL | 2026-10-30 | 345.55 | -0.96% | 56.31 | Middle range (30-70) | 342.13 | 333.06 | Above both SMAs |
-| MSFT | 2026-10-30 | 521.65 | -1.60% | 36.02 | Middle range (30-70) | 530.97 | 512.91 | Mixed / between SMAs |
-| QQQ | 2026-10-30 | 688.28 | -3.78% | 28.19 | Low RSI (<30) | 728.08 | 724.66 | Below both SMAs |
-| RY.TO | 2026-10-30 | 282.59 | -1.95% | 66.01 | Middle range (30-70) | 278.61 | 281.31 | Above both SMAs |
-| SHOP.TO | 2026-10-30 | 215.74 | -7.69% | 30.53 | Middle range (30-70) | 236.90 | 213.33 | Mixed / between SMAs |
-| SPY | 2026-10-30 | 754.65 | -1.91% | 33.76 | Middle range (30-70) | 770.41 | 766.75 | Below both SMAs |
-| VFV.TO | 2026-10-30 | 187.40 | -2.18% | 23.43 | Low RSI (<30) | 193.51 | 191.21 | Below both SMAs |
-| XEQT.TO | 2026-10-30 | 44.48 | -2.07% | 28.84 | Low RSI (<30) | 45.57 | 45.53 | Below both SMAs |
+| AAPL | 2026-11-02 | 338.32 | -1.83% | 46.59 | Middle range (30-70) | 342.36 | 333.62 | Mixed / between SMAs |
+| MSFT | 2026-11-02 | 507.12 | -2.83% | 27.84 | Low RSI (<30) | 530.08 | 513.39 | Below both SMAs |
+| QQQ | 2026-11-02 | 681.09 | -1.36% | 27.22 | Low RSI (<30) | 724.43 | 724.07 | Below both SMAs |
+| RY.TO | 2026-11-02 | 286.21 | 0.80% | 67.62 | Middle range (30-70) | 279.13 | 281.43 | Above both SMAs |
+| SHOP.TO | 2026-11-02 | 217.64 | -1.24% | 23.50 | Low RSI (<30) | 237.22 | 213.70 | Mixed / between SMAs |
+| SPY | 2026-11-02 | 752.10 | -0.48% | 32.65 | Middle range (30-70) | 769.33 | 766.54 | Below both SMAs |
+| VFV.TO | 2026-11-02 | 187.16 | -0.36% | 24.03 | Low RSI (<30) | 193.14 | 191.22 | Below both SMAs |
+| XEQT.TO | 2026-11-02 | 44.69 | 0.11% | 31.12 | Middle range (30-70) | 45.51 | 45.52 | Below both SMAs |
 
 ### How to read the indicators
 
@@ -31,14 +31,14 @@ These labels describe historical data and are not standalone buy/sell signals.
 
 ## Baseline model experiment
 
-- **AAPL:** accuracy 0.463; balanced accuracy 0.500; test samples 41; test positive-target rate 0.537.
-- **MSFT:** accuracy 0.488; balanced accuracy 0.500; test samples 41; test positive-target rate 0.512.
-- **QQQ:** accuracy 0.488; balanced accuracy 0.500; test samples 41; test positive-target rate 0.512.
-- **RY.TO:** accuracy 0.537; balanced accuracy 0.500; test samples 41; test positive-target rate 0.463.
-- **SHOP.TO:** accuracy 0.415; balanced accuracy 0.500; test samples 41; test positive-target rate 0.585.
-- **SPY:** accuracy 0.561; balanced accuracy 0.500; test samples 41; test positive-target rate 0.439.
-- **VFV.TO:** accuracy 0.488; balanced accuracy 0.500; test samples 41; test positive-target rate 0.512.
-- **XEQT.TO:** accuracy 0.561; balanced accuracy 0.500; test samples 41; test positive-target rate 0.439.
+- **AAPL:** accuracy 0.512; balanced accuracy 0.523; test samples 41; test positive-target rate 0.512.
+- **MSFT:** accuracy 0.512; balanced accuracy 0.500; test samples 41; test positive-target rate 0.488.
+- **QQQ:** accuracy 0.512; balanced accuracy 0.500; test samples 41; test positive-target rate 0.488.
+- **RY.TO:** accuracy 0.537; balanced accuracy 0.504; test samples 41; test positive-target rate 0.463.
+- **SHOP.TO:** accuracy 0.439; balanced accuracy 0.500; test samples 41; test positive-target rate 0.561.
+- **SPY:** accuracy 0.585; balanced accuracy 0.500; test samples 41; test positive-target rate 0.415.
+- **VFV.TO:** accuracy 0.512; balanced accuracy 0.501; test samples 41; test positive-target rate 0.488.
+- **XEQT.TO:** accuracy 0.585; balanced accuracy 0.528; test samples 41; test positive-target rate 0.439.
 
 Model metrics are historical holdout results, not a forecast guarantee or a buy/sell recommendation.
 
