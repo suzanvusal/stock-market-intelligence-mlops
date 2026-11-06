@@ -1,6 +1,6 @@
-# Daily Market Intelligence — 2026-11-05
+# Daily Market Intelligence — 2026-11-06
 
-- Generated: 2026-11-05 15:30 EST
+- Generated: 2026-11-06 14:53 EST
 - Purpose: educational market observation, not investment advice.
 - Prices are daily adjusted OHLCV from the configured public data source.
 
@@ -8,14 +8,14 @@
 
 | Symbol | Last date | Close | Daily return | RSI (14) | RSI interpretation | SMA 20 | SMA 50 | Trend |
 |---|---:|---:|---:|---:|---|---:|---:|---|
-| AAPL | 2026-11-05 | 344.84 | -1.34% | 51.02 | Middle range (30-70) | 343.13 | 335.47 | Above both SMAs |
-| MSFT | 2026-11-05 | 533.90 | -3.94% | 51.91 | Middle range (30-70) | 531.53 | 516.09 | Above both SMAs |
-| QQQ | 2026-11-05 | 649.68 | -6.11% | 30.80 | Middle range (30-70) | 712.53 | 722.09 | Below both SMAs |
-| RY.TO | 2026-11-05 | 285.78 | -2.32% | 59.43 | Middle range (30-70) | 281.10 | 281.78 | Above both SMAs |
-| SHOP.TO | 2026-11-05 | 200.71 | -5.64% | 25.49 | Low RSI (<30) | 232.98 | 213.45 | Below both SMAs |
-| SPY | 2026-11-05 | 733.90 | -4.29% | 35.77 | Middle range (30-70) | 765.57 | 765.85 | Below both SMAs |
-| VFV.TO | 2026-11-05 | 182.92 | -3.93% | 31.36 | Middle range (30-70) | 191.67 | 191.19 | Below both SMAs |
-| XEQT.TO | 2026-11-05 | 43.98 | -3.13% | 34.93 | Middle range (30-70) | 45.30 | 45.46 | Below both SMAs |
+| AAPL | 2026-11-06 | 343.40 | -0.22% | 50.34 | Middle range (30-70) | 343.44 | 336.03 | Mixed / between SMAs |
+| MSFT | 2026-11-06 | 532.24 | -0.69% | 49.48 | Middle range (30-70) | 531.49 | 516.68 | Above both SMAs |
+| QQQ | 2026-11-06 | 658.32 | 1.74% | 31.45 | Middle range (30-70) | 707.75 | 720.79 | Below both SMAs |
+| RY.TO | 2026-11-06 | 285.05 | -0.28% | 62.16 | Middle range (30-70) | 281.89 | 281.76 | Above both SMAs |
+| SHOP.TO | 2026-11-06 | 209.95 | 4.33% | 31.66 | Middle range (30-70) | 231.79 | 213.49 | Below both SMAs |
+| SPY | 2026-11-06 | 737.48 | 0.61% | 36.23 | Middle range (30-70) | 763.47 | 765.19 | Below both SMAs |
+| VFV.TO | 2026-11-06 | 185.43 | 1.49% | 36.98 | Middle range (30-70) | 191.14 | 191.12 | Below both SMAs |
+| XEQT.TO | 2026-11-06 | 44.38 | 0.98% | 40.78 | Middle range (30-70) | 45.23 | 45.43 | Below both SMAs |
 
 ### How to read the indicators
 
@@ -31,14 +31,14 @@ These labels describe historical data and are not standalone buy/sell signals.
 
 ## Baseline model experiment
 
-- **AAPL:** accuracy 0.463; balanced accuracy 0.500; test samples 41; test positive-target rate 0.537.
-- **MSFT:** accuracy 0.463; balanced accuracy 0.500; test samples 41; test positive-target rate 0.537.
-- **QQQ:** accuracy 0.488; balanced accuracy 0.500; test samples 41; test positive-target rate 0.512.
-- **RY.TO:** accuracy 0.488; balanced accuracy 0.458; test samples 41; test positive-target rate 0.463.
-- **SHOP.TO:** accuracy 0.439; balanced accuracy 0.500; test samples 41; test positive-target rate 0.561.
-- **SPY:** accuracy 0.537; balanced accuracy 0.500; test samples 41; test positive-target rate 0.463.
-- **VFV.TO:** accuracy 0.488; balanced accuracy 0.499; test samples 41; test positive-target rate 0.512.
-- **XEQT.TO:** accuracy 0.634; balanced accuracy 0.576; test samples 41; test positive-target rate 0.415.
+- **AAPL:** accuracy 0.512; balanced accuracy 0.524; test samples 41; test positive-target rate 0.512.
+- **MSFT:** accuracy 0.488; balanced accuracy 0.500; test samples 41; test positive-target rate 0.512.
+- **QQQ:** accuracy 0.463; balanced accuracy 0.500; test samples 41; test positive-target rate 0.537.
+- **RY.TO:** accuracy 0.512; balanced accuracy 0.477; test samples 41; test positive-target rate 0.463.
+- **SHOP.TO:** accuracy 0.415; balanced accuracy 0.500; test samples 41; test positive-target rate 0.585.
+- **SPY:** accuracy 0.537; balanced accuracy 0.525; test samples 41; test positive-target rate 0.488.
+- **VFV.TO:** accuracy 0.488; balanced accuracy 0.519; test samples 41; test positive-target rate 0.537.
+- **XEQT.TO:** accuracy 0.585; balanced accuracy 0.540; test samples 41; test positive-target rate 0.439.
 
 Model metrics are historical holdout results, not a forecast guarantee or a buy/sell recommendation.
 
